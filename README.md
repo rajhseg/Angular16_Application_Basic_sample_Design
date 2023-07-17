@@ -20,3 +20,6 @@ Features implemented.
 15. Environment load
 16. HostBinding
 17. HostListener
+18. ChangeDetectionStrategy
+19. Signal<T>
+20. toObservable (notifies when local variable value changes)
