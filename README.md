@@ -18,3 +18,5 @@ Features implemented.
 13. Load HttpModule.
 14. Async Await Promise Call
 15. Environment load
+16. HostBinding
+17. HostListener
