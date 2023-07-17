@@ -12,7 +12,7 @@ Features implemented.
 7. PreloadStrategy
 8. Input decorator
 9. Output decorator
-10. Navigation Roting Loading Sample
+10. Navigation Routing Loading Sample
 11. App_Initializer Sample
 12. Logger injection
 13. Load HttpModule.
