@@ -1,0 +1,35 @@
+<p>jquery works!</p>
+
+<div>
+    <label>Change Value with out MarkForChanges</label>
+    <button (click)="ChangeValueToFive()">Change</button>
+</div>
+
+
+<div>
+    <label>Change Value with MarkForChanges</label>
+    <button (click)="ChangeValueToEight()">Change</button>
+</div>
+
+<div>
+    <h1>{{id}}</h1>
+</div>
+
+<div>
+    <label>Set Token</label>
+    <button (click)="SetTokenToTrue()">Set Token</button>
+</div>
+
+<div>
+    <label>Clear Token</label>
+    <button (click)="SetTokenToFalse()">Clear Token</button>
+</div>
+
+
+
+<div>
+    <label>Testing Http Retry Call</label>
+    <button (click)="TestingRetryCall()">Retry Http Call</button>
+</div>
+
+<app-sample [userid]="idString" (idchange)="IdChange($event)"></app-sample>

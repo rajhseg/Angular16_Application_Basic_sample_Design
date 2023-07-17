@@ -1,0 +1,19 @@
+<div>
+Sample Application
+<div>
+  <ul>
+    <li><a [routerLink]="['/tap/1']">Tap 1</a></li>
+    <li><a [routerLink]="['/tap/2']">Tap 2</a></li>
+    <li><a [routerLink]="['/tap/3']">Tap 3</a></li>
+    <li><a [routerLink]="['/jquery']">jquery</a></li>
+    <li><a [routerLink]="['/admin/settings']">Settings</a></li>
+    <li><a [routerLink]="['/admin/services']">Services</a></li>
+    <li><a [routerLink]="['/admin/about']">about</a></li>
+  </ul>
+</div>
+</div>
+
+<div>
+  <div *ngIf="isNavigation">Loading ....</div>
+<router-outlet></router-outlet>
+</div>
